@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+  
+  .sunny {
+    background-image:
+     url('https://cdn-icons-png.flaticon.com/128/4814/4814268.png');
+  }
+  
+  .rainy {
+    background-image:
+     url('https://cdn-icons-png.flaticon.com/128/1146/1146858.png');
+  }
+  
+  .cloudy {
+    background-image:
+     url('https://cdn-icons-png.flaticon.com/128/3313/3313983.png');
+  }
+  
+  .cold {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/4814/4814268.png');
+  }
+  
+  .hot {
+    background-image:
+     url('https://cdn-icons-png.flaticon.com/128/6974/6974859.png');
+  }
+  
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-box .search-bar {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+  }
+  
+  .location-box, .weather-box {
+    color: white;
+    text-align: center;
+  }
+  
+  .location-box .location {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .weather-box .temp {
+    font-size: 22px;
+  }
+  
+  .main {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
